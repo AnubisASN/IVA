@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnubisASN.KT_SAK:module_ArcFaceFT-1.8.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/module_ArcFaceFT-1.8.5.aar/7dc263adcbf24ce5baef0d9791434fb4/jars/libs/facetracking.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/module_ArcFaceFT-1.8.5.aar/7dc263adcbf24ce5baef0d9791434fb4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/module_ArcFaceFT-1.8.5.aar/7dc263adcbf24ce5baef0d9791434fb4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

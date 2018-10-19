@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnubisASN.KT_SAK:module_ASRW-1.8.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/module_ASRW-1.8.5.aar/de634a409696b1354efc830082c93d1c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/module_ASRW-1.8.5.aar/de634a409696b1354efc830082c93d1c/jars/libs/bdasr_V3_20171108_9800a2a.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/module_ASRW-1.8.5.aar/de634a409696b1354efc830082c93d1c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

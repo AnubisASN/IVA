@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IVA硬件</string>
+    <string name="title_activity_iv">IVA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="agora_app_id">f15a6a3b0a384487ab86f6dc98ff3a7c</string>
+</resources>

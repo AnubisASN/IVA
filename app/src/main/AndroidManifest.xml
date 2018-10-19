@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anubis.iva">
+
+    <!--<uses-permission android:name="android.permission.INTERNET" /> &lt;!&ndash; 网络 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> &lt;!&ndash; GSM状态 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> &lt;!&ndash; WIFI状态 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" /> &lt;!&ndash; 手机状态 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.RECEIVE_SMS" />-->
+    <!--<uses-permission android:name="android.permission.CALL_PHONE" /> &lt;!&ndash; 拨打电话 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.RECORD_AUDIO" /> &lt;!&ndash; 麦克风 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> &lt;!&ndash; GPS &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> &lt;!&ndash; SD卡 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.BODY_SENSORS" /> &lt;!&ndash; 传感器 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.CAMERA" /> &lt;!&ndash; 相机 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.READ_CALENDAR" /> &lt;!&ndash; 日历 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.WRITE_SETTINGS" /> &lt;!&ndash; 桌面设置 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.READ_CONTACTS" /> &lt;!&ndash; 获取联系人 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.READ_SMS" /> &lt;!&ndash; 短信 &ndash;&gt;-->
+    <!--<uses-permission android:name="android.permission.WRITE_SMS" />-->
+    <!--<uses-permission android:name="android.permission.GET_TASKS"/>-->
+
+    <application
+        android:name="com.anubis.module_iva.APP"
+        android:allowBackup="true"
+        android:icon="@mipmap/log_ai"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/log_ai"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <!-- 百度API -->
+        <!-- 10001319 -->
+        <!-- ycQT0HtuCYYdu7zKBHl4PLGX -->
+        <!-- 5XEfRamiACaH0QynaBMg6RzvkNAdnCKh -->
+
+        <!--ASN_IVA-->
+        <!--11010053-->
+        <!--Yv1fNRycpH0SqaIvqVhKkd9k-->
+        <!--rOf0ISjaTHDAzzK3q8VP5lrfCsYEntTK-->
+        <!--<meta-data-->
+            <!--android:name="com.baidu.speech.APP_ID"-->
+            <!--android:value="11010053" />-->
+        <!--<meta-data-->
+            <!--android:name="com.baidu.speech.API_KEY"-->
+            <!--android:value="Yv1fNRycpH0SqaIvqVhKkd9k" />-->
+        <!--<meta-data-->
+            <!--android:name="com.baidu.speech.SECRET_KEY"-->
+            <!--android:value="rOf0ISjaTHDAzzK3q8VP5lrfCsYEntTK" />-->
+
+        <!--<service-->
+            <!--android:name="com.baidu.speech.VoiceRecognitionService"-->
+            <!--android:exported="false" />-->
+
+        <!--<activity-->
+            <!--android:name="com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog"-->
+            <!--android:configChanges="orientation|keyboardHidden|screenLayout"-->
+            <!--android:exported="false"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@android:style/Theme.Dialog">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.baidu.action.RECOGNIZE_SPEECH" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name=".UI.IVA"-->
+            <!--android:theme="@style/AppTheme.NoActionBar.Translucent"-->
+            <!--android:windowSoftInputMode="adjustPan"/>-->
+        <!--<activity-->
+            <!--android:name=".UI.SettingUI"-->
+            <!--android:label="设置"-->
+            <!--android:logo="@mipmap/bar_setting"-->
+            <!--android:theme="@style/AppTheme.Setting" />-->
+        <!--<activity-->
+            <!--android:name=".UI.TransitionUI"-->
+            <!--android:theme="@style/AppTheme.Translucent">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name=".MyApplication"-->
+            <!--android:theme="@style/AppTheme.NoActionBar.Translucent">-->
+            <!--&lt;!&ndash;<intent-filter>&ndash;&gt;-->
+            <!--&lt;!&ndash;<action android:name="android.intent.action.MAIN" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</intent-filter>&ndash;&gt;-->
+        <!--</activity>-->
+        <!--<service android:name=".Service.IVAservice" />-->
+        <!--<service-->
+            <!--android:name=".Service.ATIService"-->
+            <!--android:exported="false" >-->
+            <!--&lt;!&ndash;<intent-filter android:priority="1000">&ndash;&gt;-->
+                <!--&lt;!&ndash;<action android:name="android.aubis.myService" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</intent-filter>&ndash;&gt;-->
+        <!--</service>-->
+
+    </application>
+</manifest>

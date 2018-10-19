@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="header_theme_color">#ff333333</color>
+<string name="user_state">未登录</string>
+    <string-array name="theme_color_values">
+        <item>#ff333333,默认</item>
+        <item>#ffFFb933,温暖黄</item>
+        <item>#ff9fc983,朦胧绿</item>
+        <item>#ffCCCC99,咖啡色</item>
+        <item>#ff99CCFF,天空蓝</item>
+        <item>#ff122c54,深海蓝</item>
+        <item>#FFfc6991,少女红</item>
+    </string-array>
+
+    <string-array name="tts_load_model_value">
+        <item>F</item>
+        <item>M</item>
+        <item>X</item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="tts_load_model">
+        <item>默认女声</item>
+        <item>默认男声</item>
+        <item>情感男声</item>
+        <item>情感儿童声</item>
+    </string-array>
+    <!--百度-->
+    <string name="please_speak">请说话</string>
+    <string name="speaking">说话中</string>
+    <string name="cancel">取消</string>
+    <string name="start">开始</string>
+    <string name="setting">设置</string>
+    <string name="default_value"></string>
+
+
+    <string-array name="asr_sample_value">
+        <item>@string/default_value</item>
+        <item>8000,适用于2G或3G网络</item>
+        <item>16000,适用于4G或WIFI网络</item>
+    </string-array>
+
+    <string-array name="asr_language_value">
+        <item>@string/default_value</item>
+        <item>cmn-Hans-CN, 普通话(中国)</item>
+        <item>sichuan-Hans-CN, 四川(中国)</item>
+        <item>yue-Hans-CN, 粤语(中国)</item>
+        <item>en-GB, 英语(美国)</item>
+    </string-array>
+
+
+
+    <string-array name="asr_vad_value">
+        <item>@string/default_value</item>
+        <item>search, 适用输入搜索关键字</item>
+        <item>input, 适用于输入短信、微博等长句输入</item>
+    </string-array>
+    <string-array name="asr_type_value">
+        <item>@string/default_value</item>
+        <item>20000, 输入</item>
+        <item>10005, 热词</item>
+        <item>10060, 地图</item>
+        <item>10001, 音乐</item>
+        <item>10002, 视频</item>
+        <item>10003, 应用</item>
+        <item>10004, 网页</item>
+        <item>10007, 健康</item>
+        <item>10006, 购物</item>
+        <item>10008, 打电话</item>
+        <item>10008, 超级电话</item>
+        <item>10052, 医疗</item>
+        <item>10053, 汽车</item>
+        <item>10054, 娱乐餐饮</item>
+        <item>10055, 财经</item>
+        <item>10056, 游戏</item>
+        <item>10057, 菜谱</item>
+        <item>10058, 助手</item>
+        <item>100014, 联系人</item>
+        <item>100016, 手机设置</item>
+        <item>100018, 电视指令</item>
+        <item>100019, 播放器指令</item>
+        <item>100020, 收音机指令</item>
+        <item>100021, 命令词</item>
+    </string-array>
+</resources>
